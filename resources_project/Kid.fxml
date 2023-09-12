@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_oop.KidsController">
+   <children>
+      <ScrollPane prefHeight="500.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane prefHeight="1018.0" prefWidth="992.0" style="-fx-background-color: #fc9d03;">
+               <children>
+                  <Label layoutX="200.0" prefHeight="202.0" prefWidth="443.0" style="-fx-background-color: #a61e6d;" text="Select the appropriate option:-">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="fifteen_2" layoutX="784.0" layoutY="551.0" mnemonicParsing="false" onAction="#fifteen_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q151" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <Label layoutX="14.0" layoutY="168.0" prefHeight="17.0" prefWidth="125.0" />
+                  <RadioButton fx:id="fourteen_2" layoutX="782.0" layoutY="522.0" mnemonicParsing="false" onAction="#fourteen_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q141" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="thirteen_2" layoutX="782.0" layoutY="500.0" mnemonicParsing="false" onAction="#thirteen_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q131" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="sixteen_2" layoutX="784.0" layoutY="570.0" mnemonicParsing="false" onAction="#sixteen_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q161" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="seven_1" layoutX="726.0" layoutY="352.0" mnemonicParsing="false" onAction="#seven_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q71" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <Label layoutX="14.0" layoutY="347.0" prefHeight="28.0" prefWidth="529.0" text="How would you rate your ability to visually communicate ideas through your artwork?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="15.0" layoutY="447.0" prefHeight="36.0" prefWidth="627.0" text="How much importance do you place on aesthetics and visual appeal in your personal and professional life?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="seven_3" layoutX="837.0" layoutY="352.0" mnemonicParsing="false" onAction="#seven_3" toggleGroup="$q71" />
+                  <RadioButton fx:id="twelve_2" layoutX="782.0" layoutY="476.0" mnemonicParsing="false" onAction="#twelve_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q121" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="seven_4" layoutX="891.0" layoutY="352.0" mnemonicParsing="false" onAction="#seven_4" toggleGroup="$q71" />
+                  <RadioButton fx:id="seven_5" layoutX="955.0" layoutY="352.0" mnemonicParsing="false" onAction="#seven_5" toggleGroup="$q71" />
+                  <Label layoutX="14.0" layoutY="391.0" prefHeight="28.0" prefWidth="823.0" text="Do you enjoy experimenting with different colors, textures, and materials">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="15.0" layoutY="369.0" prefHeight="28.0" prefWidth="627.0" text="How much do you enjoy visiting art galleries, museums, or attending cultural events related to the arts?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="475.0" prefHeight="19.0" prefWidth="721.0" text="Have you ever felt a strong emotional connection to a piece of artwork, whether it be a painting, sculpture, or photograph?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="569.0" prefHeight="19.0" prefWidth="664.0" text="Are you  interested in learning how computers work?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="725.0" prefHeight="17.0" prefWidth="664.0" text="Do you enjoy identifying and pursuing opportunities to create value?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="982.0" prefHeight="28.0" prefWidth="636.0" text="Do you find coding and programming interesting?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="543.0" prefHeight="28.0" prefWidth="664.0" text="Are you interested in learning about emerging technologies like artificial intelligence and blockchain?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="782.0" prefHeight="28.0" prefWidth="463.0" text="How interested are you in learning about finance, marketing, and operations?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="11.0" layoutY="428.0" prefHeight="28.0" prefWidth="636.0" text="How proficient  you are in arts studies, such as art history, drawing, painting, sculpture, or related disciplines?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="822.0" prefHeight="28.0" prefWidth="753.0" text="Have you ever considered starting your own business or pursuing a career in entrepreneurship?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="850.0" prefHeight="17.0" prefWidth="673.0" text="How much do you enjoy exploring the complexities of human relationships and emotions?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="870.0" prefHeight="28.0" prefWidth="515.0" text="How much do you enjoy reading and analyzing works of literature, history, or philosophy?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="899.0" text="How much do you enjoy examining the role of language and communication in shaping society and culture?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="919.0" text="Do you enjoy reading and analyzing literature or other works that explore social issues?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="937.0" prefHeight="28.0" prefWidth="477.0" text="Are you curious about human behavior and the underlying factors that influence it?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="966.0" text="Do you enjoy discussing and analyzing social issues such as poverty, inequality, and discrimination?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="409.0" prefHeight="19.0" prefWidth="320.0" text="in your everyday life, such as in fashion or home decor?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="eleven_2" layoutX="782.0" layoutY="456.0" mnemonicParsing="false" onAction="#eleven_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q111" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="ten_2" layoutX="782.0" layoutY="433.0" mnemonicParsing="false" onAction="#ten_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q101" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="nine_2" layoutX="782.0" layoutY="410.0" mnemonicParsing="false" onAction="#nine_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q91" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="eight_2" layoutX="782.0" layoutY="374.0" mnemonicParsing="false" onAction="#eight_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q81" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="thirty_two_1" layoutX="727.0" layoutY="900.0" mnemonicParsing="false" onAction="#thirty_two_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q321" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="twenty_nine_1" layoutX="727.0" layoutY="827.0" mnemonicParsing="false" onAction="#twenty_nine_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q291" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="thirty_one_1" layoutX="727.0" layoutY="875.0" mnemonicParsing="false" onAction="#thirty_one_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q311" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="seven_2" layoutX="782.0" layoutY="352.0" mnemonicParsing="false" onAction="#seven_2" toggleGroup="$q71" />
+                  <RadioButton fx:id="thirty_1" layoutX="727.0" layoutY="851.0" mnemonicParsing="false" onAction="#thirty_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q301" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="thirty_three_1" layoutX="727.0" layoutY="920.0" mnemonicParsing="false" onAction="#thirty_three_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q331" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="thirty_four_1" layoutX="727.0" layoutY="942.0" mnemonicParsing="false" onAction="#thirty_four_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q341" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="eleven_1" layoutX="727.0" layoutY="456.0" mnemonicParsing="false" onAction="#eleven_1" toggleGroup="$q111" />
+                  <RadioButton fx:id="ten_1" layoutX="727.0" layoutY="433.0" mnemonicParsing="false" onAction="#ten_1" toggleGroup="$q101" />
+                  <RadioButton fx:id="nine_1" layoutX="726.0" layoutY="410.0" mnemonicParsing="false" onAction="#nine_1" toggleGroup="$q91" />
+                  <RadioButton fx:id="eight_1" layoutX="726.0" layoutY="374.0" mnemonicParsing="false" onAction="#eight_1" toggleGroup="$q81" />
+                  <RadioButton fx:id="thirty_five_11" layoutX="727.0" layoutY="967.0" mnemonicParsing="false" onAction="#thirty_five_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q351" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <Label layoutX="19.0" layoutY="805.0" text="Do you enjoy reading about entrepreneurs and their stories? ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="787.0" />
+                  <Label layoutX="19.0" layoutY="787.0" />
+                  <Label layoutX="18.0" layoutY="626.0" prefHeight="28.0" prefWidth="698.0" text="Are you interested in learning about the different types of engineering, such as mechanical, electrical, or civil engineering?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="652.0" prefHeight="19.0" prefWidth="297.0" text="Do you enjoy problem-solving and critical thinking?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="671.0" text="How much do you enjoy learning about science and technology?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="689.0" text="Do you enjoy learning about how machines work, such as cars or planes?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="766.0" prefHeight="19.0" prefWidth="479.0" text="How much do you enjoy learning about money management and personal finance?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="15.0" layoutY="707.0" prefHeight="19.0" prefWidth="394.0" text=" Are you interested in learning about how things work and are built?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="744.0" prefHeight="19.0" prefWidth="443.0" text="How interested are you in learning about finance, marketing, and operations?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="twenty_eight_1" layoutX="726.0" layoutY="806.0" mnemonicParsing="false" onAction="#twenty_eight_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q281" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="twenty_seven_1" layoutX="726.0" layoutY="787.0" mnemonicParsing="false" onAction="#twenty_seven_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q271" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="twenty_one_1" layoutX="727.0" layoutY="672.0" mnemonicParsing="false" onAction="#twenty_one_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q211" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="twenty_four_1" layoutX="726.0" layoutY="726.0" mnemonicParsing="false" onAction="#twenty_four_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q241" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="twenty_five_1" layoutX="726.0" layoutY="745.0" mnemonicParsing="false" onAction="#twenty_five_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q251" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="twenty_six_1" layoutX="727.0" layoutY="767.0" mnemonicParsing="false" onAction="#twenty_six_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q261" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <Label layoutX="16.0" layoutY="611.0" prefHeight="19.0" prefWidth="561.0" text="Do you enjoy learning about how things work and figuring out how to improve or optimize them?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="twenty_three_1" layoutX="727.0" layoutY="708.0" mnemonicParsing="false" onAction="#twenty_three_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q231" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="ninteen_1" layoutX="726.0" layoutY="631.0" mnemonicParsing="false" onAction="#ninteen_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q191" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="twenty_1" layoutX="727.0" layoutY="653.0" mnemonicParsing="false" onAction="#twenty_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q201" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="twenty_two_1" layoutX="728.0" layoutY="690.0" mnemonicParsing="false" onAction="#twenty_two_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q221" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="eighteen_1" layoutX="726.0" layoutY="612.0" mnemonicParsing="false" onAction="#eighteen_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q181" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <Label layoutX="17.0" layoutY="592.0" text="How interested are you in pursuing a career in the field of computer information and technology?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="495.0" prefHeight="28.0" prefWidth="426.0" text="Do you enjoy creating and developing digital solutions to solve problems?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="517.0" prefHeight="28.0" prefWidth="265.0" text="Do you enjoy solving puzzles or brain teasers?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="twelve_1" layoutX="727.0" layoutY="476.0" mnemonicParsing="false" onAction="#twelve_1" toggleGroup="$q121" />
+                  <RadioButton fx:id="thirteen_1" layoutX="727.0" layoutY="500.0" mnemonicParsing="false" onAction="#thirteen_1" toggleGroup="$q131" />
+                  <RadioButton fx:id="fourteen_1" layoutX="728.0" layoutY="523.0" mnemonicParsing="false" onAction="#fourteen_1" toggleGroup="$q141" />
+                  <RadioButton fx:id="fifteen_1" layoutX="727.0" layoutY="548.0" mnemonicParsing="false" onAction="#fifteen_1" toggleGroup="$q151" />
+                  <RadioButton fx:id="sixteen_1" layoutX="728.0" layoutY="570.0" mnemonicParsing="false" onAction="#sixteen_1" toggleGroup="$q161" />
+                  <RadioButton fx:id="seventeen_1" layoutX="726.0" layoutY="593.0" mnemonicParsing="false" onAction="#seventeen_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q171" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="eighteen_2" layoutX="782.0" layoutY="612.0" mnemonicParsing="false" onAction="#eighteen_2" toggleGroup="$q181" />
+                  <RadioButton fx:id="seventeen_2" layoutX="782.0" layoutY="593.0" mnemonicParsing="false" onAction="#seventeen_2" toggleGroup="$q171" />
+                  <RadioButton fx:id="twenty_four_2" layoutX="782.0" layoutY="726.0" mnemonicParsing="false" onAction="#twenty_four_2" toggleGroup="$q241" />
+                  <RadioButton fx:id="twenty_three_2" layoutX="782.0" layoutY="708.0" mnemonicParsing="false" onAction="#twenty_three_2" toggleGroup="$q231" />
+                  <RadioButton fx:id="twenty_two_2" layoutX="782.0" layoutY="690.0" mnemonicParsing="false" onAction="#twenty_two_2" toggleGroup="$q221" />
+                  <RadioButton fx:id="twenty_one_2" layoutX="782.0" layoutY="672.0" mnemonicParsing="false" onAction="#twenty_one_2" toggleGroup="$q211" />
+                  <RadioButton fx:id="twenty_2" layoutX="782.0" layoutY="653.0" mnemonicParsing="false" onAction="#twenty_2" toggleGroup="$q201" />
+                  <RadioButton fx:id="ninteen_2" layoutX="782.0" layoutY="632.0" mnemonicParsing="false" onAction="#ninteen_2" toggleGroup="$q191" />
+                  <RadioButton fx:id="thirty_five_2" layoutX="782.0" layoutY="967.0" mnemonicParsing="false" onAction="#thirty_five_2" toggleGroup="$q351" />
+                  <RadioButton fx:id="thirty_three_2" layoutX="782.0" layoutY="920.0" mnemonicParsing="false" onAction="#thirty_three_2" toggleGroup="$q331" />
+                  <RadioButton fx:id="thirty_two_2" layoutX="782.0" layoutY="900.0" mnemonicParsing="false" onAction="#thirty_two_2" toggleGroup="$q321" />
+                  <RadioButton fx:id="thirty_one_2" layoutX="784.0" layoutY="875.0" mnemonicParsing="false" onAction="#thirty_one_2" toggleGroup="$q311" />
+                  <RadioButton fx:id="thirty_2" layoutX="782.0" layoutY="851.0" mnemonicParsing="false" onAction="#thirty_2" toggleGroup="$q301" />
+                  <RadioButton fx:id="twenty_nine_2" layoutX="782.0" layoutY="827.0" mnemonicParsing="false" onAction="#twenty_nine_2" toggleGroup="$q291" />
+                  <RadioButton fx:id="twenty_eight_2" layoutX="784.0" layoutY="806.0" mnemonicParsing="false" onAction="#twenty_eight_2" toggleGroup="$q281" />
+                  <RadioButton fx:id="twenty_seven_2" layoutX="784.0" layoutY="787.0" mnemonicParsing="false" onAction="#twenty_seven_2" toggleGroup="$q271" />
+                  <RadioButton fx:id="twenty_six_2" layoutX="784.0" layoutY="767.0" mnemonicParsing="false" onAction="#twenty_six_2" toggleGroup="$q261" />
+                  <RadioButton fx:id="twenty_five_2" layoutX="782.0" layoutY="744.0" mnemonicParsing="false" onAction="#twenty_five_2" toggleGroup="$q251" />
+                  <RadioButton fx:id="nine_5" layoutX="955.0" layoutY="410.0" mnemonicParsing="false" onAction="#nine_5" toggleGroup="$q91" />
+                  <RadioButton fx:id="nine_4" layoutX="891.0" layoutY="410.0" mnemonicParsing="false" onAction="#nine_4" toggleGroup="$q91" />
+                  <RadioButton fx:id="eight_5" layoutX="955.0" layoutY="375.0" mnemonicParsing="false" onAction="#eight_5" toggleGroup="$q81" />
+                  <RadioButton fx:id="eight_4" layoutX="891.0" layoutY="375.0" mnemonicParsing="false" onAction="#eight_4" toggleGroup="$q81" />
+                  <RadioButton fx:id="thirty_two_3" layoutX="837.0" layoutY="902.0" mnemonicParsing="false" onAction="#thirty_two_3" toggleGroup="$q321" />
+                  <RadioButton fx:id="thirty_one_3" layoutX="837.0" layoutY="877.0" mnemonicParsing="false" onAction="#thirty_one_3" toggleGroup="$q311" />
+                  <RadioButton fx:id="thirty_3" layoutX="837.0" layoutY="851.0" mnemonicParsing="false" onAction="#thirty_3" toggleGroup="$q301" />
+                  <RadioButton fx:id="twenty_nine_3" layoutX="837.0" layoutY="827.0" mnemonicParsing="false" onAction="#twenty_nine_3" toggleGroup="$q291" />
+                  <RadioButton fx:id="twenty_eight_3" layoutX="837.0" layoutY="806.0" mnemonicParsing="false" onAction="#twenty_eight_3" toggleGroup="$q281" />
+                  <RadioButton fx:id="twenty_seven_3" layoutX="837.0" layoutY="787.0" mnemonicParsing="false" onAction="#twenty_seven_3" toggleGroup="$q271" />
+                  <RadioButton fx:id="twenty_six_3" layoutX="837.0" layoutY="767.0" mnemonicParsing="false" onAction="#twenty_six_3" toggleGroup="$q261" />
+                  <RadioButton fx:id="twenty_five_3" layoutX="837.0" layoutY="745.0" mnemonicParsing="false" onAction="#twenty_five_3" toggleGroup="$q251" />
+                  <RadioButton fx:id="twenty_four_3" layoutX="837.0" layoutY="726.0" mnemonicParsing="false" onAction="#twenty_four_3" toggleGroup="$q241" />
+                  <RadioButton fx:id="twenty_three_3" layoutX="837.0" layoutY="708.0" mnemonicParsing="false" onAction="#twenty_three_3" toggleGroup="$q231" />
+                  <RadioButton fx:id="twenty_two_3" layoutX="837.0" layoutY="690.0" mnemonicParsing="false" onAction="#twenty_two_3" toggleGroup="$q221" />
+                  <RadioButton fx:id="twenty_one_3" layoutX="837.0" layoutY="672.0" mnemonicParsing="false" onAction="#twenty_one_3" toggleGroup="$q211" />
+                  <RadioButton fx:id="ninteen_3" layoutX="837.0" layoutY="632.0" mnemonicParsing="false" onAction="#ninteen_3" toggleGroup="$q191" />
+                  <RadioButton fx:id="seventeen_3" layoutX="837.0" layoutY="593.0" mnemonicParsing="false" onAction="#seventeen_3" toggleGroup="$q171" />
+                  <RadioButton fx:id="sixteen_3" layoutX="837.0" layoutY="570.0" mnemonicParsing="false" onAction="#sixteen_3" toggleGroup="$q161" />
+                  <RadioButton fx:id="twenty_3" layoutX="837.0" layoutY="653.0" mnemonicParsing="false" onAction="#twenty_3" toggleGroup="$q201" />
+                  <RadioButton fx:id="eighteen_3" layoutX="837.0" layoutY="612.0" mnemonicParsing="false" onAction="#eighteen_3" toggleGroup="$q181" />
+                  <RadioButton fx:id="fourteen_3" layoutX="837.0" layoutY="522.0" mnemonicParsing="false" onAction="#fourteen_3" toggleGroup="$q141" />
+                  <RadioButton fx:id="fifteen_3" layoutX="837.0" layoutY="551.0" mnemonicParsing="false" onAction="#fifteen_3" toggleGroup="$q151" />
+                  <RadioButton fx:id="thirteen_3" layoutX="837.0" layoutY="500.0" mnemonicParsing="false" onAction="#thirteen_3" toggleGroup="$q131" />
+                  <RadioButton fx:id="twelve_3" layoutX="837.0" layoutY="476.0" mnemonicParsing="false" onAction="#twelve_3" toggleGroup="$q121" />
+                  <RadioButton fx:id="eleven_3" layoutX="837.0" layoutY="456.0" mnemonicParsing="false" onAction="#eleven_3" toggleGroup="$q111" />
+                  <RadioButton fx:id="ten_3" layoutX="837.0" layoutY="433.0" mnemonicParsing="false" onAction="#ten_3" toggleGroup="$q101" />
+                  <RadioButton fx:id="nine_3" layoutX="837.0" layoutY="410.0" mnemonicParsing="false" onAction="#nine_3" toggleGroup="$q91" />
+                  <RadioButton fx:id="eight_3" layoutX="837.0" layoutY="375.0" mnemonicParsing="false" onAction="#eight_3" toggleGroup="$q81" />
+                  <RadioButton fx:id="thirty_four_2" layoutX="784.0" layoutY="942.0" mnemonicParsing="false" onAction="#thirty_four_2" toggleGroup="$q341" />
+                  <RadioButton fx:id="thirty_three_3" layoutX="837.0" layoutY="921.0" mnemonicParsing="false" onAction="#thirty_three_3" toggleGroup="$q331" />
+                  <RadioButton fx:id="thirty_five_3" layoutX="837.0" layoutY="965.0" mnemonicParsing="false" onAction="#thirty_five_3" toggleGroup="$q351" />
+                  <RadioButton fx:id="thirty_four_3" layoutX="837.0" layoutY="942.0" mnemonicParsing="false" onAction="#thirty_four_3" toggleGroup="$q341" />
+                  <RadioButton fx:id="twenty_eight_4" layoutX="891.0" layoutY="806.0" mnemonicParsing="false" onAction="#twenty_eight_4" toggleGroup="$q281" />
+                  <RadioButton fx:id="twenty_seven_4" layoutX="891.0" layoutY="787.0" mnemonicParsing="false" onAction="#twenty_seven_4" toggleGroup="$q271" />
+                  <RadioButton fx:id="twenty_six_4" layoutX="891.0" layoutY="767.0" mnemonicParsing="false" onAction="#twenty_six_4" toggleGroup="$q261" />
+                  <RadioButton fx:id="twenty_five_4" layoutX="891.0" layoutY="745.0" mnemonicParsing="false" onAction="#twenty_five_4" toggleGroup="$q251" />
+                  <RadioButton fx:id="twenty_four_4" layoutX="891.0" layoutY="726.0" mnemonicParsing="false" onAction="#twenty_four_4" toggleGroup="$q241" />
+                  <RadioButton fx:id="twenty_three_4" layoutX="891.0" layoutY="708.0" mnemonicParsing="false" onAction="#twenty_three_4" toggleGroup="$q231" />
+                  <RadioButton fx:id="twenty_two_4" layoutX="891.0" layoutY="690.0" mnemonicParsing="false" onAction="#twenty_two_4" toggleGroup="$q221" />
+                  <RadioButton fx:id="twenty_one_4" layoutX="891.0" layoutY="672.0" mnemonicParsing="false" onAction="#twenty_one_4" toggleGroup="$q211" />
+                  <RadioButton fx:id="twenty_4" layoutX="891.0" layoutY="653.0" mnemonicParsing="false" onAction="#twenty_4" toggleGroup="$q201" />
+                  <RadioButton fx:id="ninteen_4" layoutX="891.0" layoutY="632.0" mnemonicParsing="false" onAction="#ninteen_4" toggleGroup="$q191" />
+                  <RadioButton fx:id="eighteen_4" layoutX="891.0" layoutY="612.0" mnemonicParsing="false" onAction="#eighteen_4" toggleGroup="$q181" />
+                  <RadioButton fx:id="seventeen_4" layoutX="891.0" layoutY="593.0" mnemonicParsing="false" onAction="#seventeen_4" toggleGroup="$q171" />
+                  <RadioButton fx:id="sixteen_4" layoutX="891.0" layoutY="574.0" mnemonicParsing="false" onAction="#sixteen_4" toggleGroup="$q161" />
+                  <RadioButton fx:id="fifteen_4" layoutX="891.0" layoutY="551.0" mnemonicParsing="false" onAction="#fifteen_4" toggleGroup="$q151" />
+                  <RadioButton fx:id="fourteen_4" layoutX="891.0" layoutY="522.0" mnemonicParsing="false" onAction="#fourteen_4" toggleGroup="$q141" />
+                  <RadioButton fx:id="thirteen_4" layoutX="891.0" layoutY="500.0" mnemonicParsing="false" onAction="#thirteen_4" toggleGroup="$q131" />
+                  <RadioButton fx:id="twelve_5" layoutX="955.0" layoutY="476.0" mnemonicParsing="false" onAction="#twelve_5" toggleGroup="$q121" />
+                  <RadioButton fx:id="twelve_4" layoutX="891.0" layoutY="476.0" mnemonicParsing="false" onAction="#twelve_4" toggleGroup="$q121" />
+                  <RadioButton fx:id="eleven_5" layoutX="955.0" layoutY="456.0" mnemonicParsing="false" onAction="#eleven_5" toggleGroup="$q111" />
+                  <RadioButton fx:id="eleven_4" layoutX="891.0" layoutY="456.0" mnemonicParsing="false" onAction="#eleven_4" toggleGroup="$q111" />
+                  <RadioButton fx:id="ten_4" layoutX="891.0" layoutY="434.0" mnemonicParsing="false" onAction="#ten_4" toggleGroup="$q101" />
+                  <RadioButton fx:id="ten_5" layoutX="955.0" layoutY="433.0" mnemonicParsing="false" onAction="#ten_5" toggleGroup="$q101" />
+                  <RadioButton fx:id="thirty_four_4" layoutX="891.0" layoutY="942.0" mnemonicParsing="false" onAction="#thirty_four_4" toggleGroup="$q341" />
+                  <RadioButton fx:id="thirty_three_4" layoutX="891.0" layoutY="921.0" mnemonicParsing="false" onAction="#thirty_three_4" toggleGroup="$q331" />
+                  <RadioButton fx:id="thirty_two_4" layoutX="891.0" layoutY="902.0" mnemonicParsing="false" onAction="#thirty_two_4" toggleGroup="$q321" />
+                  <RadioButton fx:id="thirty_one_4" layoutX="891.0" layoutY="877.0" mnemonicParsing="false" onAction="#thirty_one_4" toggleGroup="$q311" />
+                  <RadioButton fx:id="thirty_4" layoutX="891.0" layoutY="851.0" mnemonicParsing="false" onAction="#thirty_4" toggleGroup="$q301" />
+                  <RadioButton fx:id="twenty_nine_4" layoutX="891.0" layoutY="828.0" mnemonicParsing="false" onAction="#twenty_nine_4" toggleGroup="$q291" />
+                  <RadioButton fx:id="thirty_five_4" layoutX="891.0" layoutY="967.0" mnemonicParsing="false" onAction="#thirty_five_4" toggleGroup="$q351" />
+                  <RadioButton fx:id="thirteen_5" layoutX="955.0" layoutY="500.0" mnemonicParsing="false" onAction="#thirteen_5" toggleGroup="$q131" />
+                  <RadioButton fx:id="twenty_seven_5" layoutX="955.0" layoutY="787.0" mnemonicParsing="false" onAction="#twenty_seven_5" toggleGroup="$q271" />
+                  <RadioButton fx:id="twenty_six_5" layoutX="955.0" layoutY="767.0" mnemonicParsing="false" onAction="#twenty_six_5" toggleGroup="$q261" />
+                  <RadioButton fx:id="twenty_five_5" layoutX="955.0" layoutY="745.0" mnemonicParsing="false" onAction="#twenty_five_5" toggleGroup="$q251" />
+                  <RadioButton fx:id="twenty_four_5" layoutX="955.0" layoutY="726.0" mnemonicParsing="false" onAction="#twenty_four_5" toggleGroup="$q241" />
+                  <RadioButton fx:id="twenty_three_5" layoutX="955.0" layoutY="708.0" mnemonicParsing="false" onAction="#twenty_three_5" toggleGroup="$q231" />
+                  <RadioButton fx:id="twenty_two_5" layoutX="955.0" layoutY="690.0" mnemonicParsing="false" onAction="#twenty_two_5" toggleGroup="$q221" />
+                  <RadioButton fx:id="twenty_one_5" layoutX="955.0" layoutY="672.0" mnemonicParsing="false" onAction="#twenty_one_5" toggleGroup="$q211" />
+                  <RadioButton fx:id="twenty_5" layoutX="955.0" layoutY="653.0" mnemonicParsing="false" onAction="#twenty_5" toggleGroup="$q201" />
+                  <RadioButton fx:id="ninteen_5" layoutX="955.0" layoutY="632.0" mnemonicParsing="false" onAction="#ninteen_5" toggleGroup="$q191" />
+                  <RadioButton fx:id="eighteen_5" layoutX="955.0" layoutY="612.0" mnemonicParsing="false" onAction="#eighteen_5" toggleGroup="$q181" />
+                  <RadioButton fx:id="seventeen_5" layoutX="955.0" layoutY="593.0" mnemonicParsing="false" onAction="#seventeen_5" toggleGroup="$q171" />
+                  <RadioButton fx:id="sixteen_5" layoutX="955.0" layoutY="574.0" mnemonicParsing="false" onAction="#sixteen_5" toggleGroup="$q161" />
+                  <RadioButton fx:id="fifteen_5" layoutX="958.0" layoutY="551.0" mnemonicParsing="false" onAction="#fifteen_5" toggleGroup="$q151" />
+                  <RadioButton fx:id="fourteen_5" layoutX="955.0" layoutY="523.0" mnemonicParsing="false" onAction="#fourteen_5" toggleGroup="$q141" />
+                  <RadioButton fx:id="thirty_two_5" layoutX="955.0" layoutY="902.0" mnemonicParsing="false" onAction="#thirty_two_5" toggleGroup="$q321" />
+                  <RadioButton fx:id="thirty_one_5" layoutX="955.0" layoutY="877.0" mnemonicParsing="false" onAction="#thirty_one_5" toggleGroup="$q311" />
+                  <RadioButton fx:id="thirty_5" layoutX="955.0" layoutY="851.0" mnemonicParsing="false" onAction="#thirty_5" toggleGroup="$q301" />
+                  <RadioButton fx:id="twenty_nine_5" layoutX="955.0" layoutY="828.0" mnemonicParsing="false" onAction="#twenty_nine_5" toggleGroup="$q291" />
+                  <RadioButton fx:id="thirty_five_5" layoutX="955.0" layoutY="967.0" mnemonicParsing="false" onAction="#thirty_five_5" toggleGroup="$q351" />
+                  <RadioButton fx:id="twenty_eight_5" layoutX="955.0" layoutY="805.0" mnemonicParsing="false" onAction="#twenty_eight_5" toggleGroup="$q281" />
+                  <RadioButton fx:id="thirty_four_5" layoutX="955.0" layoutY="942.0" mnemonicParsing="false" onAction="#thirty_four_5" toggleGroup="$q341" />
+                  <RadioButton fx:id="thirty_three_5" layoutX="955.0" layoutY="921.0" mnemonicParsing="false" onAction="#thirty_three_5" toggleGroup="$q331" />
+                  <Label layoutX="14.0" layoutY="330.0" text="Do you enjoy learning about the human body and how it works?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="313.0" text=" and healthcare professionals?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="296.0" text="How comfortable are you with working with different types of people, including patients, families">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="279.0" text="How interested are you in learning about different medical specialties, such as pediatrics, cardiology, or neurology?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="253.0" prefHeight="28.0" prefWidth="468.0" text="How much do you enjoy working with your hands and performing practical tasks?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="235.0" prefHeight="19.0" prefWidth="630.0" text="Are you interested in learning about different medical specialties, such as pediatrics, cardiology, or neurology?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="217.0" prefHeight="19.0" prefWidth="453.0" text="Are you comfortable with working under pressure and making quick decisions?">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="six_4" layoutX="891.0" layoutY="331.0" mnemonicParsing="false" onAction="#six_4">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q61" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="six_3" layoutX="837.0" layoutY="331.0" mnemonicParsing="false" onAction="#six_3" toggleGroup="$q61" />
+                  <RadioButton fx:id="one_2" layoutX="782.0" layoutY="218.0" mnemonicParsing="false" onAction="#one_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q1" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="two_2" layoutX="782.0" layoutY="236.0" mnemonicParsing="false" onAction="#two_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q2" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="three_2" layoutX="784.0" layoutY="258.0" mnemonicParsing="false" onAction="#three_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q3" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="four_2" layoutX="782.0" layoutY="280.0" mnemonicParsing="false" onAction="#four_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q41" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="five_2" layoutX="782.0" layoutY="304.0" mnemonicParsing="false" onAction="#five_2">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q51" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="six_2" layoutX="782.0" layoutY="331.0" mnemonicParsing="false" onAction="#six_2" toggleGroup="$q61" />
+                  <RadioButton fx:id="two_1" layoutX="726.0" layoutY="236.0" mnemonicParsing="false" onAction="#two_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q21" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="one_1" layoutX="726.0" layoutY="218.0" mnemonicParsing="false" onAction="#one_1" toggleGroup="$q1" />
+                  <RadioButton fx:id="three_1" layoutX="726.0" layoutY="258.0" mnemonicParsing="false" onAction="#three_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q31" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="four_1" layoutX="726.0" layoutY="280.0" mnemonicParsing="false" onAction="#four_1" toggleGroup="$q41" />
+                  <RadioButton fx:id="five_1" layoutX="726.0" layoutY="304.0" mnemonicParsing="false" onAction="#five_1" toggleGroup="$q51" />
+                  <RadioButton fx:id="six_1" layoutX="727.0" layoutY="331.0" mnemonicParsing="false" onAction="#six_1" toggleGroup="$q61" />
+                  <RadioButton fx:id="three_3" layoutX="837.0" layoutY="258.0" mnemonicParsing="false" onAction="#three_3" toggleGroup="$q31" />
+                  <RadioButton fx:id="four_5" layoutX="955.0" layoutY="280.0" mnemonicParsing="false" onAction="#four_5" toggleGroup="$q41" />
+                  <RadioButton fx:id="four_4" layoutX="891.0" layoutY="280.0" mnemonicParsing="false" onAction="#four_4" toggleGroup="$q41" />
+                  <RadioButton fx:id="four_3" layoutX="837.0" layoutY="280.0" mnemonicParsing="false" onAction="#four_3" toggleGroup="$q41" />
+                  <RadioButton fx:id="five_5" layoutX="955.0" layoutY="304.0" mnemonicParsing="false" onAction="#five_5" toggleGroup="$q51" />
+                  <RadioButton fx:id="five_4" layoutX="891.0" layoutY="304.0" mnemonicParsing="false" onAction="#five_4" toggleGroup="$q51" />
+                  <RadioButton fx:id="five_3" layoutX="837.0" layoutY="306.0" mnemonicParsing="false" onAction="#five_3" toggleGroup="$q51" />
+                  <RadioButton fx:id="six_5" layoutX="955.0" layoutY="331.0" mnemonicParsing="false" onAction="#six_5" toggleGroup="$q61" />
+                  <RadioButton fx:id="one_4" layoutX="891.0" layoutY="218.0" mnemonicParsing="false" onAction="#one_4" toggleGroup="$q1" />
+                  <RadioButton fx:id="one_3" layoutX="837.0" layoutY="218.0" mnemonicParsing="false" onAction="#one_3" toggleGroup="$q1" />
+                  <RadioButton fx:id="two_5" layoutX="955.0" layoutY="236.0" mnemonicParsing="false" onAction="#two_5" toggleGroup="$q21" />
+                  <RadioButton fx:id="two_4" layoutX="891.0" layoutY="236.0" mnemonicParsing="false" onAction="#two_4" toggleGroup="$q21" />
+                  <RadioButton fx:id="two_3" layoutX="837.0" layoutY="236.0" mnemonicParsing="false" onAction="#two_3" toggleGroup="$q21" />
+                  <RadioButton fx:id="three_5" layoutX="955.0" layoutY="258.0" mnemonicParsing="false" onAction="#three_5" toggleGroup="$q31" />
+                  <RadioButton fx:id="three_4" layoutX="891.0" layoutY="259.0" mnemonicParsing="false" onAction="#three_4" toggleGroup="$q31" />
+                  <RadioButton fx:id="one_5" layoutX="955.0" layoutY="218.0" mnemonicParsing="false" onAction="#one_5" toggleGroup="$q1" />
+                  <ImageView fitHeight="202.0" fitWidth="213.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@kk.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="683.0" layoutY="168.0" text="Strongly" />
+                  <Label layoutX="735.0" layoutY="168.0" text="Moderately" />
+                  <Label layoutX="805.0" layoutY="176.0" text="Neutral" />
+                  <Label layoutX="853.0" layoutY="168.0" text="Moderately" />
+                  <Label layoutX="921.0" layoutY="168.0" text="Strongly" />
+                  <Label layoutX="692.0" layoutY="192.0" text="Disagree" />
+                  <Label layoutX="744.0" layoutY="194.0" text="Disagree" />
+                  <Label layoutX="863.0" layoutY="192.0" text="Agree" />
+                  <Label layoutX="921.0" layoutY="192.0" text="Agree" />
+                  <RadioButton fx:id="thirty_six_1" layoutX="728.0" layoutY="987.0" mnemonicParsing="false" onAction="#thirty_six_1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q361" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="thirty_six_2" layoutX="784.0" layoutY="987.0" mnemonicParsing="false" onAction="#thirty_six_2" toggleGroup="$q361" />
+                  <RadioButton fx:id="thirty_six_3" layoutX="836.0" layoutY="987.0" mnemonicParsing="false" onAction="#thirty_six_3" toggleGroup="$q361" />
+                  <RadioButton fx:id="thirty_six_4" layoutX="891.0" layoutY="987.0" mnemonicParsing="false" onAction="#thirty_six_4" toggleGroup="$q361" />
+                  <RadioButton fx:id="thirty_six_5" layoutX="955.0" layoutY="987.0" mnemonicParsing="false" onAction="#thirty_six_5" toggleGroup="$q361" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

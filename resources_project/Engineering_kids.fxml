@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="396.0" prefWidth="678.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_oop.Engineering_kids_Controller">
+   <children>
+      <ImageView fitHeight="220.0" fitWidth="231.0" layoutX="336.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@codd.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="23.0" prefHeight="28.0" prefWidth="664.0" text="Are you interested in learning about emerging technologies like artificial intelligence and blockchain?">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="160.0" prefHeight="28.0" prefWidth="636.0" text="Do you find coding and programming interesting?">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="228.0" prefHeight="28.0" prefWidth="426.0" text="Do you enjoy creating and developing digital solutions to solve problems?">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="91.0" prefHeight="19.0" prefWidth="561.0" text="Do you enjoy learning about how things work and figuring out how to improve or optimize them?">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="305.0" prefHeight="19.0" prefWidth="561.0" text="Do you enjoy learning about how things work and figuring out how to improve or optimize them?">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="c1_1" layoutX="26.0" layoutY="51.0" mnemonicParsing="false" onAction="#c1_1" prefHeight="28.0" prefWidth="114.0" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="c1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="c5_1" layoutX="20.0" layoutY="325.0" mnemonicParsing="false" onAction="#c5_1" prefHeight="28.0" prefWidth="114.0" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="c5" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="c4_1" layoutX="20.0" layoutY="269.0" mnemonicParsing="false" onAction="#c4_1" prefHeight="28.0" prefWidth="114.0" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="c4" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="c3_1" layoutX="26.0" layoutY="194.0" mnemonicParsing="false" onAction="#c3_1" prefHeight="28.0" prefWidth="114.0" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="c3" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="c2_1" layoutX="26.0" layoutY="119.0" mnemonicParsing="false" onAction="#c2_1" prefHeight="28.0" prefWidth="114.0" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="c2" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="c3_2" layoutX="153.0" layoutY="194.0" mnemonicParsing="false" onAction="#c3_2" prefHeight="28.0" prefWidth="131.0" text="Moderately disagree" toggleGroup="$c3" />
+      <RadioButton fx:id="c4_2" layoutX="153.0" layoutY="269.0" mnemonicParsing="false" onAction="#c4_2" prefHeight="28.0" prefWidth="131.0" text="Moderately disagree" toggleGroup="$c4" />
+      <RadioButton fx:id="c5_2" layoutX="153.0" layoutY="325.0" mnemonicParsing="false" onAction="#c5_2" prefHeight="28.0" prefWidth="131.0" text="Moderately disagree" toggleGroup="$c5" />
+      <RadioButton fx:id="c2_2" layoutX="153.0" layoutY="119.0" mnemonicParsing="false" onAction="#c2_2" prefHeight="28.0" prefWidth="131.0" text="Moderately disagree" toggleGroup="$c2" />
+      <RadioButton fx:id="c1_2" layoutX="153.0" layoutY="51.0" mnemonicParsing="false" onAction="#c1_2" prefHeight="28.0" prefWidth="131.0" text="Moderately disagree" toggleGroup="$c1" />
+      <RadioButton fx:id="c1_3" layoutX="296.0" layoutY="56.0" mnemonicParsing="false" onAction="#c1_3" text="Neutral" toggleGroup="$c1" />
+      <RadioButton fx:id="c2_3" layoutX="296.0" layoutY="124.0" mnemonicParsing="false" onAction="#c2_3" text="Neutral" toggleGroup="$c2" />
+      <RadioButton fx:id="c3_3" layoutX="296.0" layoutY="199.0" mnemonicParsing="false" onAction="#c3_3" text="Neutral" toggleGroup="$c3" />
+      <RadioButton fx:id="c4_3" layoutX="296.0" layoutY="274.0" mnemonicParsing="false" onAction="#c4_3" text="Neutral" toggleGroup="$c4" />
+      <RadioButton fx:id="c5_3" layoutX="296.0" layoutY="330.0" mnemonicParsing="false" onAction="#c5_3" text="Neutral" toggleGroup="$c5" />
+      <RadioButton fx:id="c3_4" layoutX="382.0" layoutY="199.0" mnemonicParsing="false" onAction="#c3_4" prefHeight="17.0" prefWidth="115.0" text="Moderately agree" toggleGroup="$c3" />
+      <RadioButton fx:id="c5_4" layoutX="374.0" layoutY="330.0" mnemonicParsing="false" onAction="#c5_4" prefHeight="17.0" prefWidth="115.0" text="Moderately agree" toggleGroup="$c5" />
+      <RadioButton fx:id="c4_4" layoutX="374.0" layoutY="274.0" mnemonicParsing="false" onAction="#c4_4" prefHeight="17.0" prefWidth="115.0" text="Moderately agree" toggleGroup="$c4" />
+      <RadioButton fx:id="c2_4" layoutX="375.0" layoutY="124.0" mnemonicParsing="false" onAction="#c2_4" prefHeight="17.0" prefWidth="115.0" text="Moderately agree" toggleGroup="$c2" />
+      <RadioButton fx:id="c1_4" layoutX="375.0" layoutY="56.0" mnemonicParsing="false" onAction="#c1_4" prefHeight="17.0" prefWidth="115.0" text="Moderately agree" toggleGroup="$c1" />
+      <RadioButton fx:id="c5_5" layoutX="513.0" layoutY="330.0" mnemonicParsing="false" onAction="#c5_5" prefHeight="17.0" prefWidth="108.0" text="Strongly Agree" toggleGroup="$c5" />
+      <RadioButton fx:id="c4_5" layoutX="513.0" layoutY="274.0" mnemonicParsing="false" onAction="#c4_5" prefHeight="17.0" prefWidth="108.0" text="Strongly Agree" toggleGroup="$c4" />
+      <RadioButton fx:id="c3_5" layoutX="513.0" layoutY="199.0" mnemonicParsing="false" onAction="#c3_5" prefHeight="17.0" prefWidth="108.0" text="Strongly Agree" toggleGroup="$c3" />
+      <RadioButton fx:id="c2_5" layoutX="513.0" layoutY="124.0" mnemonicParsing="false" onAction="#c2_5" prefHeight="17.0" prefWidth="108.0" text="Strongly Agree" toggleGroup="$c2" />
+      <RadioButton fx:id="c1_5" layoutX="513.0" layoutY="56.0" mnemonicParsing="false" onAction="#c1_5" prefHeight="17.0" prefWidth="108.0" text="Strongly Agree" toggleGroup="$c1" />
+      <Button fx:id="next_button" layoutX="536.0" layoutY="360.0" mnemonicParsing="false" onAction="#next" prefHeight="25.0" prefWidth="114.0" style="-fx-background-color: yellow;" text="next_button" />
+      <Label fx:id="next_label" layoutX="17.0" layoutY="360.0" prefHeight="25.0" prefWidth="461.0" textFill="RED" />
+   </children>
+</AnchorPane>

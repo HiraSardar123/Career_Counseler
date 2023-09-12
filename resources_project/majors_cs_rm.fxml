@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_oop.MajorsCsRm">
+   <children>
+      <Label layoutX="227.0" layoutY="36.0" prefHeight="68.0" prefWidth="111.0" text="ROADMAPS" textFill="#11827e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="AI" layoutX="169.0" layoutY="120.0" mnemonicParsing="false" onAction="#AI" prefHeight="32.0" prefWidth="207.0" text="Artificial Intelligence" />
+      <Button fx:id="ds" layoutX="169.0" layoutY="184.0" mnemonicParsing="false" onAction="#ds" prefHeight="32.0" prefWidth="207.0" text="DataScience" />
+      <Button fx:id="gd" layoutX="169.0" layoutY="237.0" mnemonicParsing="false" onAction="#gd" prefHeight="32.0" prefWidth="207.0" text="Game Development" />
+      <Button fx:id="se" layoutX="169.0" layoutY="294.0" mnemonicParsing="false" onAction="#se" prefHeight="32.0" prefWidth="207.0" text="Software Engineering" />
+      <Button fx:id="cs" layoutX="169.0" layoutY="350.0" mnemonicParsing="false" onAction="#cs" prefHeight="32.0" prefWidth="207.0" text="Cyber Security" />
+      <Button fx:id="back" layoutX="403.0" layoutY="36.0" mnemonicParsing="false" onAction="#back" prefHeight="68.0" prefWidth="150.0" text="BACK" textFill="#11827e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

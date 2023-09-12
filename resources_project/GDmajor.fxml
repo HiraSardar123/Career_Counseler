@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_oop.GDController">
+   <children>
+      <ImageView fitHeight="520.0" fitWidth="735.0" layoutX="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nextgen_blog_default.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-1.0" prefHeight="520.0" prefWidth="735.0">
+         <children>
+            <Label layoutX="8.0" layoutY="50.0" prefHeight="41.0" prefWidth="731.0" style="-fx-background-color: #f030c3;" text="1. I am comfortable working with programming languages such as C++ and Unity.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="g1_1" layoutX="44.0" layoutY="100.0" mnemonicParsing="false" onAction="#g1_1">
+               <toggleGroup>
+                  <ToggleGroup fx:id="c1" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="g1_2" layoutX="177.0" layoutY="100.0" mnemonicParsing="false" onAction="#g1_2">
+               <toggleGroup>
+                  <ToggleGroup fx:id="a1" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="g1_3" layoutX="279.0" layoutY="100.0" mnemonicParsing="false" onAction="#g1_3" toggleGroup="$a1" />
+            <RadioButton fx:id="g1_4" layoutX="382.0" layoutY="100.0" mnemonicParsing="false" onAction="#g1_4" toggleGroup="$a1" />
+            <RadioButton fx:id="g1_5" layoutX="500.0" layoutY="100.0" mnemonicParsing="false" onAction="#g1_5" toggleGroup="$a1" />
+            <Label layoutX="8.0" layoutY="128.0" prefHeight="41.0" prefWidth="731.0" style="-fx-background-color: #eb7b4b;" text="2. I am interested in creating 3D models and visual effects">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="g2_4" layoutX="382.0" layoutY="183.0" mnemonicParsing="false" onAction="#g2_4">
+               <toggleGroup>
+                  <ToggleGroup fx:id="a2" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="g2_3" layoutX="279.0" layoutY="183.0" mnemonicParsing="false" onAction="#g2_3" toggleGroup="$a2" />
+            <RadioButton fx:id="g2_2" layoutX="177.0" layoutY="183.0" mnemonicParsing="false" onAction="#g2_2" toggleGroup="$a2" />
+            <RadioButton fx:id="g2_1" layoutX="44.0" layoutY="183.0" mnemonicParsing="false" onAction="#g2_1" toggleGroup="$a2" />
+            <RadioButton fx:id="g3_1" layoutX="44.0" layoutY="257.0" mnemonicParsing="false" onAction="#g3_1">
+               <toggleGroup>
+                  <ToggleGroup fx:id="a3" />
+               </toggleGroup>
+            </RadioButton>
+            <Label layoutX="10.0" layoutY="208.0" prefHeight="41.0" prefWidth="725.0" style="-fx-background-color: #77c985;" text="3. I enjoy playing and analyzing video games to understand their mechanics.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="291.0" prefHeight="41.0" prefWidth="731.0" style="-fx-background-color: #d1435b;" text="4. I am interested in designing game levels and puzzles.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="470.0" layoutY="23.0" text="Strongly disagree" />
+            <Label layoutX="335.0" layoutY="23.0" text="Moderately Disagree" />
+            <Label layoutX="271.0" layoutY="23.0" text="Agree" />
+            <Label layoutX="20.0" layoutY="23.0" text="Strongly Agree" />
+            <Label layoutX="137.0" layoutY="23.0" text="Moderately Agree" />
+            <RadioButton fx:id="g2_5" layoutX="500.0" layoutY="183.0" mnemonicParsing="false" onAction="#g2_5" toggleGroup="$a2" />
+            <RadioButton fx:id="g4_4" layoutX="382.0" layoutY="344.0" mnemonicParsing="false" onAction="#g4_4">
+               <toggleGroup>
+                  <ToggleGroup fx:id="a4" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="g3_3" layoutX="279.0" layoutY="258.0" mnemonicParsing="false" onAction="#g3_3" toggleGroup="$a3" />
+            <RadioButton fx:id="g3_2" layoutX="177.0" layoutY="258.0" mnemonicParsing="false" onAction="#g3_2" toggleGroup="$a3" />
+            <RadioButton fx:id="g3_5" layoutX="500.0" layoutY="257.0" mnemonicParsing="false" onAction="#g3_5" toggleGroup="$a3" />
+            <RadioButton fx:id="g5_4" layoutX="390.0" layoutY="459.0" mnemonicParsing="false" onAction="#g5_4">
+               <toggleGroup>
+                  <ToggleGroup fx:id="a5" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="g4_2" layoutX="177.0" layoutY="344.0" mnemonicParsing="false" onAction="#g4_2" toggleGroup="$a4" />
+            <RadioButton fx:id="g3_4" layoutX="382.0" layoutY="257.0" mnemonicParsing="false" onAction="#g3_4" toggleGroup="$a3" />
+            <RadioButton fx:id="g4_3" layoutX="279.0" layoutY="344.0" mnemonicParsing="false" onAction="#g4_3" toggleGroup="$a4" />
+            <RadioButton fx:id="g4_5" layoutX="500.0" layoutY="344.0" mnemonicParsing="false" onAction="#g4_5" toggleGroup="$a4" />
+            <Label layoutX="8.0" layoutY="370.0" prefHeight="41.0" prefWidth="731.0" style="-fx-background-color: #e3d74f;" text="5. I am fascinated by the art of game development, where I can unleash my creativity, design immersive">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="g5_3" layoutX="279.0" layoutY="459.0" mnemonicParsing="false" onAction="#g5_3" toggleGroup="$a5" />
+            <RadioButton fx:id="g5_2" layoutX="177.0" layoutY="459.0" mnemonicParsing="false" onAction="#g5_2" toggleGroup="$a5" />
+            <RadioButton fx:id="g4_1" layoutX="44.0" layoutY="344.0" mnemonicParsing="false" onAction="#g4_1" toggleGroup="$a4" />
+            <RadioButton fx:id="g5_5" layoutX="500.0" layoutY="459.0" mnemonicParsing="false" onAction="#g5_5" toggleGroup="$a5" />
+            <Label layoutX="8.0" layoutY="410.0" prefHeight="41.0" prefWidth="731.0" style="-fx-background-color: #e3d74f;" text="gameplay mechanics, and bring captivating stories to players through interactive experiences.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="next" layoutX="612.0" layoutY="15.0" mnemonicParsing="false" onAction="#next" prefHeight="33.0" prefWidth="95.0" style="-fx-background-color: #d11528;" text="NEXT" />
+            <RadioButton fx:id="g5_1" layoutX="52.0" layoutY="459.0" mnemonicParsing="false" onAction="#g5_1" toggleGroup="$a5" />
+            <Label fx:id="label" layoutX="265.0" layoutY="483.0" prefHeight="33.0" prefWidth="436.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

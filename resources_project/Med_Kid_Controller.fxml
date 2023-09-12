@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_oop.Med_kid_Controller">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="745.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="202.0" fitWidth="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kk.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="202.0" prefHeight="202.0" prefWidth="466.0" style="-fx-background-color: yellow;" text="Select the appropriate option:-">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="211.0" prefHeight="20.0" prefWidth="507.0" text="Are you comfortable with working under pressure and making quick decisions?" textFill="#04437d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="372.0" prefHeight="20.0" prefWidth="645.0" text="Are you interested in learning about different medical specialties such as pediatrics, or neurology?" textFill="#04437d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="265.0" prefHeight="28.0" prefWidth="507.0" text="How much do you enjoy working with your hands and performing practical tasks?" textFill="#04437d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="321.0" prefHeight="20.0" prefWidth="439.0" text="Do you enjoy learning about the human body and how it works?" textFill="#04437d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="422.0" text="How comfortable are you with working with different types of people, " textFill="#04437d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="442.0" text=" including patients, families and healthcare professionals?" textFill="#04437d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="d1_1" layoutX="14.0" layoutY="241.0" mnemonicParsing="false" onAction="#d1_1" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="d1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="d1_2" layoutX="153.0" layoutY="241.0" mnemonicParsing="false" onAction="#d1_2" text="Moderately disagree" toggleGroup="$d1" />
+      <RadioButton fx:id="d1_3" layoutX="313.0" layoutY="241.0" mnemonicParsing="false" onAction="#d1_3" text="Neutral" toggleGroup="$d1" />
+      <RadioButton fx:id="d1_4" layoutX="398.0" layoutY="241.0" mnemonicParsing="false" onAction="#d1_4" text="Moderately agree" toggleGroup="$d1" />
+      <RadioButton fx:id="d1_5" layoutX="542.0" layoutY="241.0" mnemonicParsing="false" onAction="#d1_5" text="Strongly Agree" toggleGroup="$d1" />
+      <RadioButton fx:id="d4_1" layoutX="14.0" layoutY="398.0" mnemonicParsing="false" onAction="#d4_1" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="d4" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="d5_1" layoutX="19.0" layoutY="468.0" mnemonicParsing="false" onAction="#d5_1" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="d5" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="d3_1" layoutX="14.0" layoutY="351.0" mnemonicParsing="false" onAction="#d3_1" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="d3" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="d2_1" layoutX="14.0" layoutY="295.0" mnemonicParsing="false" onAction="#d2_1" text="Strongly disagree">
+         <toggleGroup>
+            <ToggleGroup fx:id="d2" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="d5_2" layoutX="153.0" layoutY="468.0" mnemonicParsing="false" onAction="#d5_2" text="Moderately disagree" toggleGroup="$d5" />
+      <RadioButton fx:id="d4_2" layoutX="153.0" layoutY="398.0" mnemonicParsing="false" onAction="#d4_2" text="Moderately disagree" toggleGroup="$d4" />
+      <RadioButton fx:id="d3_2" layoutX="153.0" layoutY="351.0" mnemonicParsing="false" onAction="#d3_2" text="Moderately disagree" toggleGroup="$d3" />
+      <RadioButton fx:id="d2_2" layoutX="153.0" layoutY="295.0" mnemonicParsing="false" onAction="#d2_2" text="Moderately disagree" toggleGroup="$d2" />
+      <RadioButton fx:id="d5_3" layoutX="316.0" layoutY="468.0" mnemonicParsing="false" onAction="#d5_3" text="Neutral" toggleGroup="$d5" />
+      <RadioButton fx:id="d4_3" layoutX="316.0" layoutY="398.0" mnemonicParsing="false" onAction="#d4_3" text="Neutral" toggleGroup="$d4" />
+      <RadioButton fx:id="d3_3" layoutX="316.0" layoutY="351.0" mnemonicParsing="false" onAction="#d3_3" text="Neutral" toggleGroup="$d3" />
+      <RadioButton fx:id="d2_3" layoutX="316.0" layoutY="295.0" mnemonicParsing="false" onAction="#d2_3" text="Neutral" toggleGroup="$d2" />
+      <RadioButton fx:id="d5_4" layoutX="398.0" layoutY="468.0" mnemonicParsing="false" onAction="#d5_4" text="Moderately agree" toggleGroup="$d5" />
+      <RadioButton fx:id="d4_4" layoutX="398.0" layoutY="398.0" mnemonicParsing="false" onAction="#d4_4" text="Moderately agree" toggleGroup="$d4" />
+      <RadioButton fx:id="d3_4" layoutX="398.0" layoutY="351.0" mnemonicParsing="false" onAction="#d3_4" text="Moderately agree" toggleGroup="$d3" />
+      <RadioButton fx:id="d2_4" layoutX="398.0" layoutY="295.0" mnemonicParsing="false" onAction="#d2_4" text="Moderately agree" toggleGroup="$d2" />
+      <RadioButton fx:id="d5_5" layoutX="542.0" layoutY="468.0" mnemonicParsing="false" onAction="#d5_5" text="Strongly Agree" toggleGroup="$d5" />
+      <RadioButton fx:id="d4_5" layoutX="552.0" layoutY="398.0" mnemonicParsing="false" onAction="#d4_5" text="Strongly Agree" toggleGroup="$d4" />
+      <RadioButton fx:id="d3_5" layoutX="552.0" layoutY="351.0" mnemonicParsing="false" onAction="#d3_5" text="Strongly Agree" toggleGroup="$d3" />
+      <RadioButton fx:id="d2_5" layoutX="552.0" layoutY="295.0" mnemonicParsing="false" onAction="#d2_5" text="Strongly Agree" toggleGroup="$d2" />
+      <Button fx:id="next_button" layoutX="498.0" layoutY="1.0" mnemonicParsing="false" onAction="#next_button" prefHeight="57.0" prefWidth="168.0" style="-fx-background-color: white;" text="NEXT" />
+      <Label fx:id="nextscreen_label" layoutX="234.0" layoutY="172.0" prefHeight="17.0" prefWidth="367.0" textFill="RED" />
+   </children>
+</AnchorPane>
